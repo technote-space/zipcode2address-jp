@@ -15,9 +15,9 @@ This library provides method to get japanese address from zipcode.
 <details>
 <summary>Details</summary>
 
-- [Setup](#setup)
-  - [yarn](#yarn)
-  - [npm](#npm)
+- [Usage](#usage)
+  - [Install](#install)
+  - [Use](#use)
 - [Author](#author)
 
 </details>

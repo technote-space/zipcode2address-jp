@@ -23,12 +23,43 @@ This library provides method to get japanese address from zipcode.
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Setup
-### yarn
-- `yarn setup`
-### npm
-- `npm run setup`
+## Usage
+
+### Install
+
+`yarn add @technote-space/zipcode2address-jp`
+
+or
+
+`npm i @technote-space/zipcode2address-jp`
+
+### Use
+
+e.g.
+
+```ts
+import {getAddress} from '@technote-space/zipcode2address-jp';
+
+(async() => {
+  console.log(await getAddress('1000001'));
+  console.log(await getAddress('100-0001'));
+  /*
+  {
+    zipCode: '1000001',
+    prefectureJisCode: '13',
+    prefectureName: '東京都',
+    prefectureNameKana: 'ﾄｳｷｮｳﾄ',
+    cityJisCode: '13101',
+    cityName: '千代田区',
+    cityNameKana: 'ﾁﾖﾀﾞｸ',
+    townName: '千代田',
+    townNameKana: 'ﾁﾖﾀﾞ'
+  }
+  */
+})();
+```
 
 ## Author
+
 [GitHub (Technote)](https://github.com/technote-space)  
 [Blog](https://technote.space)

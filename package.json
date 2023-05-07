@@ -1,6 +1,6 @@
 {
   "name": "@technote-space/zipcode2address-jp",
-  "version": "0.1.39",
+  "version": "0.1.40",
   "description": "This library provides method to get japanese address from zipcode.",
   "keywords": [
     "github",
